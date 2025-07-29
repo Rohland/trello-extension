@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Trello UX",
+  "version": "1.0",
+  "description": "Inject custom CSS into Trello to fix the shite layout",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://*.trello.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.trello.com/*"],
+      "css": ["styles.css"],
+      "run_at": "document_start"
+    }
+  ]
+}

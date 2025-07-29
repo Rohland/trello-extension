@@ -1,0 +1,21 @@
+div[aria-labelledby="card-back-name"] main {
+	width: 30vw !important;
+}
+
+div[aria-labelledby="card-back-name"] main > div {
+	max-width: 100% !important;
+}
+
+div[aria-labelledby="card-back-name"] aside {
+	width: 40vw;
+	background-color: #efefef;
+}
+
+div[aria-labelledby="card-back-name"] aside > div {
+	width: 40vw !important;
+	padding: 20px 40px !important;
+}
+
+div[aria-labelledby="card-back-name"] {
+	width: 70vw !important;
+}
