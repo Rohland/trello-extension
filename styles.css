@@ -19,3 +19,13 @@ div[aria-labelledby="card-back-name"] aside > div {
 div[aria-labelledby="card-back-name"] {
 	width: 70vw !important;
 }
+
+.atlaskit-portal-container section {
+  width: 600px !important;
+}
+
+.atlaskit-portal-container section div[data-testid="unread-notification"] > div {
+  width: 536px;
+}
+
+
