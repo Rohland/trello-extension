@@ -1,3 +1,11 @@
+/* Card modal */
+
+div[aria-labelledby="card-back-name"] {
+	width: 70vw !important;
+}
+
+/* Card - left panel (main) */
+
 div[aria-labelledby="card-back-name"] main {
 	width: 30vw !important;
 }
@@ -6,8 +14,10 @@ div[aria-labelledby="card-back-name"] main > div {
 	max-width: 100% !important;
 }
 
+/* Card - right panel (aside) */
+
 div[aria-labelledby="card-back-name"] aside {
-	width: 40vw;
+	width: 40vw !important;
 	background-color: #efefef;
 }
 
@@ -16,9 +26,8 @@ div[aria-labelledby="card-back-name"] aside > div {
 	padding: 20px 40px !important;
 }
 
-div[aria-labelledby="card-back-name"] {
-	width: 70vw !important;
-}
+
+/* Notication Panels */
 
 .atlaskit-portal-container section {
   width: 600px !important;
