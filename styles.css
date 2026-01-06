@@ -18,7 +18,6 @@ div[aria-labelledby="card-back-name"] main > div {
 
 div[aria-labelledby="card-back-name"] aside {
 	width: 40vw !important;
-	background-color: #efefef;
 }
 
 div[aria-labelledby="card-back-name"] aside > div {
