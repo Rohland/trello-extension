@@ -1,5 +1,4 @@
 /* Card modal */
-/* Card modal */
 div[aria-labelledby="card-back-name"] {
 	width: 70vw !important;
 }
@@ -18,13 +17,28 @@ div[aria-labelledby="card-back-name"] main > div {
 
 /* Card - right panel (aside) */
 div[aria-labelledby="card-back-name"] aside {
-	flex: 1 1 auto !important;
-	width: auto !important;
+	flex: 1 1 0% !important;
+	width: 0 !important;
+	min-width: 0 !important;
 }
 
 div[aria-labelledby="card-back-name"] aside > div {
 	width: 100% !important;
 	padding: 20px 40px !important;
+}
+
+/* Constrain the editor inside aside */
+div[aria-labelledby="card-back-name"] aside .akEditor,
+div[aria-labelledby="card-back-name"] aside .css-1jke4yk,
+div[aria-labelledby="card-back-name"] aside .css-4lo3ea {
+	max-width: 100% !important;
+	width: 100% !important;
+}
+
+div[aria-labelledby="card-back-name"] aside .ProseMirror {
+	overflow-wrap: break-word !important;
+	word-break: break-word !important;
+	white-space: pre-wrap !important;
 }
 
 /* Notication Panels */
